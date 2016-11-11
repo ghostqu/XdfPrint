@@ -10,8 +10,8 @@ import javax.swing.*;
 public class myPrintGUI {
 	// data member
 	private PrinterJob pj = PrinterJob.getPrinterJob();
-	private MenuItem convertPdg2Ps = new MenuItem("Convert");
-	private MenuItem printSetup = new MenuItem("Print Setup");
+	//private MenuItem convertPdg2Ps = new MenuItem("Convert");
+	//private MenuItem printSetup = new MenuItem("Print Setup");
 	
 	// method part
 	public myPrintGUI(){
@@ -28,7 +28,7 @@ public class myPrintGUI {
 	/*@author Alex Qu
 	 * this method is used to set the action of menu item
 	 * */
-	public void printMenuItem(){
+/*	public void printMenuItem(){
 		convertPdg2Ps.addActionListener(new ActionListener(){
 
 			@Override
@@ -49,7 +49,7 @@ public class myPrintGUI {
 			
 		});
 	}
-	
+	*/
 	/*@author Alex Qu
 	 * this method is used to create a printer dialog
 	 * in the dialog the information of page format should be delivery to service class
